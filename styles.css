@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body {
+    background-color: #FEF3E2;
+}
+
+.container {
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+}
+
+.library {
+    display: flex;
+    padding: 40px 10px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-title {
+    margin-bottom: 20px;
+    color: #FA812F;
+}
+
+.cardBook {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: #FFB22C;
+    border: 2px solid #F3C623;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    gap: 15px;
+}
+
+.book-title {
+    color: #FFFDF6;
+}
+
+.book-author {
+    color: #FFFDF6;
+    grid-column: 1/3;
+}
+
+.book-pages {
+    color: #FFFDF6;
+    grid-column: 1/3;
+}
+
+.btnRemove {
+    color: #FFFDF6;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    justify-self: end;
+    background-color: #FA812F;
+}
+
+.btnToggleRead {
+    color: #FFFDF6;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: #FA812F;
+}
+
+.form-title {
+    color: #FA812F;
+}
+
+label {
+    color: #FA812F;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+ 
+input {
+    width: 200px;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+}
+
+.submitBtn {
+    background-color: #FA812F;
+    border: none;
+    border-radius: 10px;
+    color: #FEF3E2;
+    padding: 10px;
+}
+
+.cardBookDeleted {
+    display: none;
+}
